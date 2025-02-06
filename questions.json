@@ -1,0 +1,162 @@
+[
+    {
+        "question": "Vem grundade ITF-Taekwondo?",
+        "choice1": "General Choi Hong Hi",
+        "choice2": "Mäster Kim Il Sung",
+        "choice3": "Mäster Hwang Kwon Soo",
+        "choice4": "Mäster Lee Sung Jin",
+        "answer": 1
+    },
+    {
+        "question": "Vad heter Taekwondo-dräkten?",
+        "choice1": "Dobok",
+        "choice2": "Gi",
+        "choice3": "Hakama",
+        "choice4": "Karategi",
+        "answer": 1
+    },
+    {
+        "question": "Vad betyder det vita färgen i Taekwondo?",
+        "choice1": "Renhet och oskuld",
+        "choice2": "Mod",
+        "choice3": "Styrka och kraft",
+        "choice4": "Erfarenhet",
+        "answer": 1
+    },
+    {
+        "question": "Vilken grad är vanligtvis den första i Taekwondo?",
+        "choice1": "10:e kup",
+        "choice2": "9:e kup",
+        "choice3": "8:e kup",
+        "choice4": "7:e kup",
+        "answer": 1
+    },
+    {
+        "question": "Vad betyder ordet 'Taekwondo'?",
+        "choice1": "Kampkonst med fot och näve",
+        "choice2": "Kampkonst med ande och kropp",
+        "choice3": "Kampkonst med kropp och själ",
+        "choice4": "Kampkonst med tanke och handling",
+        "answer": 1
+    },
+    {
+        "question": "Vad är det primära fokusområdet för Taekwondo?",
+        "choice1": "Selvförsvar",
+        "choice2": "Meditation",
+        "choice3": "Kulturell arv",
+        "choice4": "Konkurrenskampvikt",
+        "answer": 1
+    },
+    {
+        "question": "Vad heter Taekwondo-kurser (former)?",
+        "choice1": "Hyung",
+        "choice2": "Kata",
+        "choice3": "Dojang",
+        "choice4": "Taekwon",
+        "answer": 1
+    },
+    {
+        "question": "Vad kallas träningsområdet för Taekwondo?",
+        "choice1": "Dojang",
+        "choice2": "Dojo",
+        "choice3": "Gym",
+        "choice4": "Studio",
+        "answer": 1
+    },
+    {
+        "question": "Vad är värdet av det svarta bältet i Taekwondo?",
+        "choice1": "Mästerskap och färdighet",
+        "choice2": "Erfarenhet och kunskap",
+        "choice3": "Mod och styrka",
+        "choice4": "Renhet och oskuld",
+        "answer": 1
+    },
+    {
+        "question": "Vilken typ av sparkar används vanligtvis i Taekwondo?",
+        "choice1": "Höga och snabba sparkar",
+        "choice2": "Flygande sparkar",
+        "choice3": "Spinnande sparkar",
+        "choice4": "Låga och långsamma sparkar",
+        "answer": 1
+    },
+    {
+        "question": "Vad innebär terminen 'kyorugi'?",
+        "choice1": "Sparring",
+        "choice2": "Form",
+        "choice3": "Självförsvar",
+        "choice4": "Teori",
+        "answer": 1
+    },
+    {
+        "question": "Vilken färg bälte får en elev efter att ha uppnått högsta kup-graden?",
+        "choice1": "Svart",
+        "choice2": "Grön",
+        "choice3": "Blå",
+        "choice4": "Röd",
+        "answer": 1
+    },
+    {
+        "question": "Hur många steg finns det i den första form som lärs ut?",
+        "choice1": "10",
+        "choice2": "16",
+        "choice3": "20",
+        "choice4": "23",
+        "answer": 2
+    },
+    {
+        "question": "Vad är syftet med 'ho shin sul' inom Taekwondo?",
+        "choice1": "Sparring",
+        "choice2": "Självförsvar",
+        "choice3": "Konstruktion",
+        "choice4": "Teori",
+        "answer": 2
+    },
+    {
+        "question": "Vilken typ av tävlingar finns inom Taekwondo?",
+        "choice1": "Traditionella och moderna",
+        "choice2": "Team och individuell",
+        "choice3": "Juniortävlingar",
+        "choice4": "Sångtävlingar",
+        "answer": 2
+    },
+    {
+        "question": "Vad kännetecknar en 'pumsae'?",
+        "choice1": "Det är en form",
+        "choice2": "Det är en sparringstaktik",
+        "choice3": "Det är en kampstil",
+        "choice4": "Det är ett typrörelse",
+        "answer": 1
+    },
+    {
+        "question": "Vilken är den högsta graden inom Taekwondo?",
+        "choice1": "Sjätte dan",
+        "choice2": "Tionde dan",
+        "choice3": "Åttonde dan",
+        "choice4": "Nionde dan",
+        "answer": 2
+    },
+    {
+        "question": "Vad betyder 'dan' i Taekwondo?",
+        "choice1": "Ett bältesystem",
+        "choice2": "En typ av form",
+        "choice3": "En nivå av skicklighet",
+        "choice4": "En slags sparring",
+        "answer": 3
+    },
+    {
+        "question": "Vad representerar den röda färgen i bältesystemet?",
+        "choice1": "Mod och styrka",
+        "choice2": "Risk och fara",
+        "choice3": "Erfarenhet och kunskap",
+        "choice4": "Renhet och oskuld",
+        "answer": 2
+    },
+    {
+        "question": "Vilket av följande är en vanlig term inom Taekwondo?",
+        "choice1": "Taekwon",
+        "choice2": "Zendo",
+        "choice3": "Dojo",
+        "choice4": "Karate",
+        "answer": 1
+    }
+]
