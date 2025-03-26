@@ -3,13 +3,14 @@
     margin-bottom: 0.5rem;
     width: 100%;
     font-size: 1.8rem;
-    border: 0.1rem solid rgb(86, 165, 235, 0.25);
+    border: 0.1rem solid rgba(86, 165, 235, 0.25);
     background-color: white;
+    border-radius: 1rem; 
+    overflow: hidden; 
 }
 
 .choice-container:hover {
     cursor: pointer;
-    /* box-shadow: 0 0.4rem 0 rgba(86, 185, 235, 0.5); */
     box-shadow: 0 0.4rem 0 #fe95f6;
     transform: translateY(-0.1rem);
     transition: transform 150ms;
@@ -55,12 +56,44 @@
     height: 4rem;
     border: 0.3rem solid #56a5eb;
     margin-top: 1.5rem;
+    border-radius: 2rem; /* Rundade hörn för progressBar */
+    overflow: hidden; /* För att säkerställa att det inre elementet inte stickar ut */
 }
 
 #progressBarFull {
     height: 3.4rem;
     background-color: #56a5eb;
     width: 0%;
+    border-radius: 1.8rem; /* Rundade hörn för den fyllda delen */
+    transition: width 0.5s; /* Smooth transition when updating width */
+}
+.button-container {
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 2rem; 
+}
+
+.btn {
+    font-size: 1.8rem;
+    padding: 1rem 0; 
+    width: 30%; 
+    text-align: center;
+    border: 0.1rem solid #56a5eb;
+    color: #56a5eb;
+    background-color: white;
+    border-radius: 1rem;
+    transition: box-shadow 150ms, transform 150ms;
+    cursor: pointer;
+}
+
+.backBtn:hover {
+    background-color: #f0f0f0; 
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+}
+
+.nextButton:hover {
+    background-color: #f0f0f0;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
 }
 
 /*LOADER*/

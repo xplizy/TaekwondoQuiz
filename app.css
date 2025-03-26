@@ -1,11 +1,12 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins);
 :root {
     background-color: #ecf5ff;
     font-size: 62.5%;
 }
 
-*{
+* {
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
     color: #333;
@@ -33,24 +34,52 @@ h2 {
     font-size: 4.2rem;
     margin-bottom: 4rem;
     font-weight: 700;
+    color: #56a5eb;
 }
 
 h3 {
     font-size: 2.8rem;
     font-weight: 500;
+    color: #56a5eb;
+}
+h4 {
+    font-size: 2rem;
+    font-weight: 500;
+}
+/* Justera listpunkternas stil */
+ul {
+    margin: 1rem 0;
+    padding-left: 2rem; /* Indentera för listor */
+}
+
+li {
+    font-size: 2rem; /* Textstorlek för listpunkter */
+    margin-bottom: 0.5rem; /* Utrymme mellan listpunkterna */
+}
+table {
+    width: 100%; /* Gör tabellen full bredd */
+    border-collapse: collapse; /* Ta bort avstånd mellan celler */
+    margin-bottom: 20px; /* Avstånd mellan tabeller */
+}
+th, td {
+    border: 1px solid #ccc; /* Själv en grå kantlinje */
+    padding: 8px; /* Inre avstånd i celler */
+    text-align: left; /* Justera text till vänster */
+    font-size: 2rem;
+}
+th {
+    background-color: #f2f2f2; /* Ljus bakgrund för rubriker */
 }
 
 /* UTILITIES */
 
 .container {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 100%;
+    height: auto; /* Låt innehållet bestämma höjden */
     max-width: 80rem;
     margin: 0 auto;
     padding: 2rem;
+    overflow-y: auto; /* Aktivera vertikal scrollning */
 }
 
 .container > * {
@@ -90,14 +119,15 @@ h3 {
     margin-bottom: 1rem;
     color: #56a5eb;
     background-color: white;
+    border-radius: 1rem;
+    transition: box-shadow 150ms, transform 150ms;
+    text-decoration: none; /* Ta bort understrykning av länkar */
 }
 
 .btn:hover {
     cursor: pointer;
-    /* box-shadow: 0 0.4rem 0 rgba(86, 185, 235, 0.5); */
     box-shadow: 0 0.4rem 0 #fe95f6;
     transform: translateY(-0.1rem);
-    transition: transform 150ms;
 }
 
 .btn[disabled]:hover {
@@ -117,14 +147,15 @@ form {
 
 input {
     margin-bottom: 1rem;
-    width: 20rem;
+    width: 100%; /* Full bredd på inputfältet */
+    max-width: 20rem; /* Håll maxbredden */
     padding: 1.5rem;
     font-size: 1.8rem;
     border: none;
     box-shadow: 0 0.1rem 1.4rem 0 rgba(86, 185, 235, 0.5); 
-
 }
-input ::placeholder {
+
+input::placeholder {
     color: #aaa;
 }
 

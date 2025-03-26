@@ -5,6 +5,7 @@ const scoreText = document.getElementById("score");
 const progressBarFull = document.getElementById("progressBarFull");
 const loader = document.getElementById("loader");
 const game = document.getElementById("game");
+const nextButton = document.getElementById("nextButton");
 
 let currentQuestion = {};
 let acceptingAnswers = false;
@@ -68,8 +69,8 @@ fetch("questions.json")
 
 
 //CONSTATS
-const CORRECT_BONUS = 10;
-const MAX_QUESTIONS = 10;
+const CORRECT_BONUS = 1;
+const MAX_QUESTIONS = 20;
 
 startGame = () => {
     questionCounter = 0;
@@ -78,18 +79,47 @@ startGame = () => {
     getNewQuestion();
     game.classList.remove("hidden");
     loader.classList.add("hidden");
+    nextButton.classList.add("hidden");
 };
 
-getNewQuestion = () => {
+// getNewQuestion = () => {
 
-    if(availableQuestions.length == 0 || questionCounter > MAX_QUESTIONS) {
+//     if(availableQuestions.length == 0 || questionCounter > MAX_QUESTIONS) {
+//         localStorage.setItem("mostRecentScore", score);
+//         //go to the end page
+//         return window.location.assign("/end.html");
+//     }
+//     questionCounter++;
+//     progressText.innerText = `Question ${questionCounter}/${MAX_QUESTIONS}`;
+//     //Update the progress bar
+//     progressBarFull.style.width = `${(questionCounter / MAX_QUESTIONS) * 100}%`;
+
+//     const questionIndex = Math.floor(Math.random() * availableQuestions.length);
+//     currentQuestion = availableQuestions[questionIndex];
+//     question.innerText = currentQuestion.question;
+
+//     choices.forEach(choice => {
+//         const number = choice.dataset["number"];
+//         choice.innerText = currentQuestion["choice" + number];
+//     });
+
+//     availableQuestions.splice(questionIndex, 1);
+
+//     acceptingAnswers = true;
+// };
+
+document.getElementById('backButton').addEventListener('click', () => {
+    window.location.assign("/");
+});
+
+getNewQuestion = () => {
+    if (questionCounter >= MAX_QUESTIONS) {
         localStorage.setItem("mostRecentScore", score);
-        //go to the end page
         return window.location.assign("/end.html");
     }
+
     questionCounter++;
-    progressText.innerText = `Question ${questionCounter}/${MAX_QUESTIONS}`;
-    //Update the progress bar
+    progressText.innerText = `Fråga ${questionCounter}/${MAX_QUESTIONS}`;
     progressBarFull.style.width = `${(questionCounter / MAX_QUESTIONS) * 100}%`;
 
     const questionIndex = Math.floor(Math.random() * availableQuestions.length);
@@ -99,16 +129,65 @@ getNewQuestion = () => {
     choices.forEach(choice => {
         const number = choice.dataset["number"];
         choice.innerText = currentQuestion["choice" + number];
+        choice.parentElement.classList.remove("correct", "incorrect"); 
     });
 
     availableQuestions.splice(questionIndex, 1);
-
     acceptingAnswers = true;
 };
 
+// getNewQuestion = () => {
+//     if (availableQuestions.length == 0 || questionCounter > MAX_QUESTIONS) {
+//         localStorage.setItem("mostRecentScore", score);
+
+//         return window.location.assign("/end.html");
+//     }
+//     questionCounter++;
+//     progressText.innerText = `Question ${questionCounter}/${MAX_QUESTIONS}`;
+
+//     progressBarFull.style.width = `${(questionCounter / MAX_QUESTIONS) * 100}%`;
+
+//     const questionIndex = Math.floor(Math.random() * availableQuestions.length);
+//     currentQuestion = availableQuestions[questionIndex];
+//     question.innerText = currentQuestion.question;
+
+//     choices.forEach(choice => {
+//         const number = choice.dataset["number"];
+//         choice.innerText = currentQuestion["choice" + number];
+//         choice.parentElement.classList.remove("correct", "incorrect"); 
+//     });
+
+//     availableQuestions.splice(questionIndex, 1);
+
+//     acceptingAnswers = true;
+// };
+
+// choices.forEach(choice => {
+//     choice.addEventListener("click", e => {
+//         if(!acceptingAnswers) return;
+
+//         acceptingAnswers = false;
+//         const selectedChoice = e.target;
+//         const selectedAnswer = selectedChoice.dataset["number"];
+
+//         const classToApply = 
+//             selectedAnswer == currentQuestion.answer ? "correct" : "incorrect";
+
+//         if (classToApply == "correct") {
+//             incrementScore(CORRECT_BONUS);
+//         }    
+        
+//         selectedChoice.parentElement.classList.add(classToApply);
+
+//         setTimeout( () => {
+//             selectedChoice.parentElement.classList.remove(classToApply);
+//             getNewQuestion();
+//         }, 1000);
+//     });
+// });
 choices.forEach(choice => {
     choice.addEventListener("click", e => {
-        if(!acceptingAnswers) return;
+        if (!acceptingAnswers) return;
 
         acceptingAnswers = false;
         const selectedChoice = e.target;
@@ -119,19 +198,33 @@ choices.forEach(choice => {
 
         if (classToApply == "correct") {
             incrementScore(CORRECT_BONUS);
-        }    
-        
-        selectedChoice.parentElement.classList.add(classToApply);
+        } else {
+            // Visa det korrekta svaret
+            const correctChoice = choices.find(choice => 
+                choice.dataset["number"] == currentQuestion.answer
+            );
+            correctChoice.classList.add("correct");
+        }
 
-        setTimeout( () => {
-            selectedChoice.parentElement.classList.remove(classToApply);
-            getNewQuestion();
-        }, 1000);
+        selectedChoice.parentElement.classList.add(classToApply);
+        nextButton.classList.remove("hidden"); 
+
+        choices.forEach(choice => {
+            choice.style.pointerEvents = 'none'; 
+        });
     });
+});
+
+nextButton.addEventListener("click", () => {
+    nextButton.classList.add("hidden");
+    choices.forEach(choice => {
+        choice.classList.remove("correct", "incorrect"); 
+        choice.style.pointerEvents = 'auto';
+    });
+    getNewQuestion();
 });
 
 incrementScore = num =>{
     score += num;
     scoreText.innerText = score;
 }
-

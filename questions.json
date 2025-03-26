@@ -16,20 +16,12 @@
         "answer": 1
     },
     {
-        "question": "Vad betyder det vita färgen i Taekwondo?",
-        "choice1": "Renhet och oskuld",
-        "choice2": "Mod",
-        "choice3": "Styrka och kraft",
-        "choice4": "Erfarenhet",
-        "answer": 1
-    },
-    {
-        "question": "Vilken grad är vanligtvis den första i Taekwondo?",
-        "choice1": "10:e kup",
-        "choice2": "9:e kup",
-        "choice3": "8:e kup",
-        "choice4": "7:e kup",
-        "answer": 1
+        "question": "Hur många Tul finns det i Taekwondo?",
+        "choice1": "10",
+        "choice2": "18",
+        "choice3": "22",
+        "choice4": "24",
+        "answer": 4
     },
     {
         "question": "Vad betyder ordet 'Taekwondo'?",
@@ -40,31 +32,55 @@
         "answer": 1
     },
     {
-        "question": "Vad är det primära fokusområdet för Taekwondo?",
-        "choice1": "Selvförsvar",
-        "choice2": "Meditation",
-        "choice3": "Kulturell arv",
-        "choice4": "Konkurrenskampvikt",
+        "question": "När grundades Taekwondo?",
+        "choice1": "11 Januari 1909",
+        "choice2": "11 Augusti 1941",
+        "choice3": "11 April 1955",
+        "choice4": "11 December 2020",
+        "answer": 3
+    },
+    {
+        "question": "Vad betyder det vita färgen i Taekwondo?",
+        "choice1": "Renhet och oskuld",
+        "choice2": "Mod",
+        "choice3": "Styrka och kraft",
+        "choice4": "Erfarenhet",
         "answer": 1
     },
     {
-        "question": "Vad heter Taekwondo-kurser (former)?",
-        "choice1": "Hyung",
-        "choice2": "Kata",
-        "choice3": "Dojang",
-        "choice4": "Taekwon",
-        "answer": 1
+        "question": "Vad betyder det gula färgen i Taekwondo?",
+        "choice1": "Renhet och oskuld",
+        "choice2": "Mod",
+        "choice3": "Ett frö som lägger sina rötter",
+        "choice4": "Erfarenhet",
+        "answer": 3
     },
     {
-        "question": "Vad kallas träningsområdet för Taekwondo?",
-        "choice1": "Dojang",
-        "choice2": "Dojo",
-        "choice3": "Gym",
-        "choice4": "Studio",
-        "answer": 1
+        "question": "Vad betyder det gröna färgen i Taekwondo?",
+        "choice1": "Renhet och oskuld",
+        "choice2": "Mod",
+        "choice3": "Erfarenhet",
+        "choice4": "Växtens utveckling",
+        "answer": 4
     },
     {
-        "question": "Vad är värdet av det svarta bältet i Taekwondo?",
+        "question": "Vad betyder det blåa färgen i Taekwondo?",
+        "choice1": "Renhet och oskuld",
+        "choice2": "Växt som sträcker sig mot himlen",
+        "choice3": "Jorden där en växt lägger sina rötter",
+        "choice4": "Erfarenhet",
+        "answer": 2
+    },
+    {
+        "question": "Vad betyder det röda färgen i Taekwondo?",
+        "choice1": "Mästerskap och färdighet",
+        "choice2": "Risk och fara",
+        "choice3": "Mod och styrka",
+        "choice4": "Renhet och oskuld",
+        "answer": 2
+    },
+    {
+        "question": "Vad betyder det svarta färgen i Taekwondo?",
         "choice1": "Mästerskap och färdighet",
         "choice2": "Erfarenhet och kunskap",
         "choice3": "Mod och styrka",
@@ -72,91 +88,364 @@
         "answer": 1
     },
     {
-        "question": "Vilken typ av sparkar används vanligtvis i Taekwondo?",
-        "choice1": "Höga och snabba sparkar",
-        "choice2": "Flygande sparkar",
-        "choice3": "Spinnande sparkar",
-        "choice4": "Låga och långsamma sparkar",
-        "answer": 1
-    },
-    {
-        "question": "Vad innebär terminen 'kyorugi'?",
-        "choice1": "Sparring",
-        "choice2": "Form",
-        "choice3": "Självförsvar",
-        "choice4": "Teori",
-        "answer": 1
-    },
-    {
-        "question": "Vilken färg bälte får en elev efter att ha uppnått högsta kup-graden?",
-        "choice1": "Svart",
-        "choice2": "Grön",
-        "choice3": "Blå",
-        "choice4": "Röd",
-        "answer": 1
-    },
-    {
-        "question": "Hur många steg finns det i den första form som lärs ut?",
+        "question": "Hur många bältesgrader finns det?",
         "choice1": "10",
-        "choice2": "16",
+        "choice2": "19",
         "choice3": "20",
         "choice4": "23",
         "answer": 2
     },
     {
-        "question": "Vad är syftet med 'ho shin sul' inom Taekwondo?",
-        "choice1": "Sparring",
-        "choice2": "Självförsvar",
-        "choice3": "Konstruktion",
-        "choice4": "Teori",
-        "answer": 2
-    },
-    {
-        "question": "Vilken typ av tävlingar finns inom Taekwondo?",
-        "choice1": "Traditionella och moderna",
-        "choice2": "Team och individuell",
-        "choice3": "Juniortävlingar",
-        "choice4": "Sångtävlingar",
-        "answer": 2
-    },
-    {
-        "question": "Vad kännetecknar en 'pumsae'?",
-        "choice1": "Det är en form",
-        "choice2": "Det är en sparringstaktik",
-        "choice3": "Det är en kampstil",
-        "choice4": "Det är ett typrörelse",
+        "question": "Vad kallas träningshall för Taekwondo?",
+        "choice1": "Dojang",
+        "choice2": "Dojo",
+        "choice3": "Gym",
+        "choice4": "Studio",
         "answer": 1
     },
     {
-        "question": "Vilken är den högsta graden inom Taekwondo?",
-        "choice1": "Sjätte dan",
-        "choice2": "Tionde dan",
-        "choice3": "Åttonde dan",
-        "choice4": "Nionde dan",
-        "answer": 2
+        "question": "Vem grundade ITF-Taekwondo?",
+        "choice1": "General Choi Hong Hi",
+        "choice2": "Mäster Kim Il Sung",
+        "choice3": "Mäster Hwang Kwon Soo",
+        "choice4": "Mäster Lee Sung Jin",
+        "answer": 1
     },
     {
-        "question": "Vad betyder 'dan' i Taekwondo?",
-        "choice1": "Ett bältesystem",
-        "choice2": "En typ av form",
-        "choice3": "En nivå av skicklighet",
-        "choice4": "En slags sparring",
+        "question": "När blev namnet Taekwondo officiellt?",
+        "choice1": "1948",
+        "choice2": "1954",
+        "choice3": "1955",
+        "choice4": "1966",
         "answer": 3
     },
     {
-        "question": "Vad representerar den röda färgen i bältesystemet?",
-        "choice1": "Mod och styrka",
-        "choice2": "Risk och fara",
-        "choice3": "Erfarenhet och kunskap",
-        "choice4": "Renhet och oskuld",
+        "question": "Vad representerar de 24 TUL inom Taekwondo?",
+        "choice1": "De traditionella teknikerna",
+        "choice2": "De 24 timmarna på dygnet",
+        "choice3": "De 24 bästa utövarna",
+        "choice4": "De 24 bälten i Taekwondo",
         "answer": 2
     },
     {
-        "question": "Vilket av följande är en vanlig term inom Taekwondo?",
-        "choice1": "Taekwon",
-        "choice2": "Zendo",
-        "choice3": "Dojo",
-        "choice4": "Karate",
+        "question": "Vad heter jackan i Taekwondo-dräkten?",
+        "choice1": "Baji",
+        "choice2": "Ti",
+        "choice3": "Dobok",
+        "choice4": "Jaogori",
+        "answer": 4
+    },
+    {
+        "question": "När togs Taekwondo in i Sverige?",
+        "choice1": "1965",
+        "choice2": "1967",
+        "choice3": "1970",
+        "choice4": "1972",
+        "answer": 2
+    },
+    {
+        "question": "Vilken etikregel handlar om artighet?",
+        "choice1": "Guk Gi",
+        "choice2": "Ye Ui",
+        "choice3": "Yom Chi",
+        "choice4": "In Nae",
+        "answer": 2
+    },
+    {
+        "question": "Vad symboliserar bältet i Taekwondo?",
+        "choice1": "Kampens svårighetsgrad",
+        "choice2": "Strävan mot ett mål",
+        "choice3": "Antalet träningstimmar",
+        "choice4": "Rangordningen inom klubben",
+        "answer": 2
+    },
+    {
+        "question": "Vad var General Choi Hong Hi's roll 1948?",
+        "choice1": "Skolledare",
+        "choice2": "Huvudinstruktör för självförsvarsträning",
+        "choice3": "President för Taekwondo",
+        "choice4": "Kampsportstränare",
+        "answer": 2
+    },
+    {
+        "question": "Vad kallas byxorna i Taekwondo-dräkten?",
+        "choice1": "Baji",
+        "choice2": "Ti",
+        "choice3": "Dobok",
+        "choice4": "Jaogori",
         "answer": 1
+    },
+    {
+       "question": "Vilket år bildades det svenska Taekwondoförbundet?",
+       "choice1": "1995",
+       "choice2": "1996",
+       "choice3": "1997",
+       "choice4": "1998",
+       "answer": 2
+    },
+    {
+       "question": "Vad symboliserar Taekwondo-trädet?",
+       "choice1": "En kampsport",
+       "choice2": "Evigt liv och upplysning",
+       "choice3": "Ett evigt grönt träd",
+       "choice4": "Tradition och kultur",
+       "answer": 3
+    },
+    {
+       "question": "Vad är en av de fem reglerna i Taekwondo?",
+       "choice1": "Vara tyst",
+       "choice2": "Respektera instruktörer och seniorer",
+       "choice3": "Träna dagligen",
+       "choice4": "Lära sig alla mönster",
+       "answer": 2
+    },
+    {
+        "question": "Vilken färg representerar faran i Taekwondo-bälten?",
+        "choice1": "Grön",
+        "choice2": "Blå",
+        "choice3": "Röd",
+        "choice4": "Svart",
+        "answer": 3
+    },
+    {
+        "question": "Vad betyder Chon Ji Tul?",
+        "choice1": "Himmel och jord",
+        "choice2": "Koreas grundare",
+        "choice3": "Patriotens liv",
+        "choice4": "Buddhismens introduktion",
+        "answer": 1
+    },
+    {
+        "question": "Hur många kup finns det i Taekwondo?",
+        "choice1": "5",
+        "choice2": "10",
+        "choice3": "15",
+        "choice4": "20",
+        "answer": 2
+    },
+    {
+        "question": "Vilken TUL representerar filosofen Yi I?",
+        "choice1": "Joong Gun Tul",
+        "choice2": "Yul Gok Tul",
+        "choice3": "Toi Gye Tul",
+        "choice4": "Hwa Rang Tul",
+        "answer": 2
+    },
+    {
+        "question": "Vad symboliserar den svarta färgen på bältet?",
+        "choice1": "Oska och nyfikenhet",
+        "choice2": "Mod och styrka",
+        "choice3": "Erfarenhet och kunskap",
+        "choice4": "Motsatsen till vitt",
+        "answer": 4
+    },
+    {
+        "question": "Vad kallas den röda rand som visar att en elev är en boosabum?",
+        "choice1": "Svart rand",
+        "choice2": "Röd rand",
+        "choice3": "Grön rand",
+        "choice4": "Blå rand",
+        "answer": 1
+    },
+    {
+        "question": "Hur många rörelser har Won Hyo Tul?",
+        "choice1": "19",
+        "choice2": "21",
+        "choice3": "28",
+        "choice4": "30",
+        "answer": 3
+    },
+    {
+        "question": "Vad betyder kommandot 'si jak'?",
+        "choice1": "Klara",
+        "choice2": "Börja",
+        "choice3": "Stopp",
+        "choice4": "Sitt ner",
+        "answer": 2
+    },
+    {
+        "question": "Vilken teknik används för att uppnå bättre balans och kosmetiskt utseende?",
+        "choice1": "Hwaldung Pahdo",
+        "choice2": "Gibon yonsup",
+        "choice3": "Dollimyo",
+        "choice4": "Twigi",
+        "answer": 1
+    },
+    {
+       "question": "Vad representerar Hwa Rang Tul?",
+       "choice1": "Ungdomens blomma",
+       "choice2": "Ett krig",
+       "choice3": "En filosof",
+       "choice4": "En kung",
+       "answer": 1
+    },
+    {
+       "question": "Vad kallas en svart bälte med två svarta ränder?",
+       "choice1": "Boosabum",
+       "choice2": "Sabumnim",
+       "choice3": "Sahyon",
+       "choice4": "Saseong",
+       "answer": 3
+    },
+    {
+       "question": "Vilken färg representerar jorden i Taekwondo-bälten?",
+       "choice1": "Vit",
+       "choice2": "Gul",
+       "choice3": "Grön",
+       "choice4": "Blå",
+       "answer": 2
+    },
+    {
+        "question": "Vad kallas fri kamp i Taekwondo?",
+        "choice1": "Mobum matsogi",
+        "choice2": "Jayu matsogi",
+        "choice3": "Yoksak matsogi",
+        "choice4": "Ilbo matsogi",
+        "answer": 2
+    },
+    {
+        "question": "Vilket av följande är en typ av uppvisningskamp?",
+        "choice1": "Ilbo matsogi",
+        "choice2": "Jayu matsogi",
+        "choice3": "Mobum matsogi",
+        "choice4": "Ibo matsogi",
+        "answer": 3
+    },
+    {
+        "question": "Vad betyder 'Sambo matsogi'?",
+        "choice1": "En stegssparring",
+        "choice2": "Två stegssparring",
+        "choice3": "Fri kamp",
+        "choice4": "Uppvisningskamp",
+        "answer": 1
+    },
+    {
+        "question": "Vilken typ av rörelse utförs med en hastig förflyttning?",
+        "choice1": "Fast motion",
+        "choice2": "Quik motion",
+        "choice3": "Natural motion",
+        "choice4": "Slow motion",
+        "answer": 2
+    },
+    {
+        "question": "Vad kallas tekniker som utförs efter varandra utan att kroppen stannar?",
+        "choice1": "Quik motion",
+        "choice2": "Continuous motion",
+        "choice3": "Slow motion",
+        "choice4": "Connecting motion",
+        "answer": 2
+    },
+    {
+        "question": "Vilken facing innebär att hela kroppen pekar framåt?",
+        "choice1": "Sidefacing",
+        "choice2": "Halffacing",
+        "choice3": "Full facing",
+        "choice4": "Diagonal facing",
+        "answer": 3
+    },
+    {
+        "question": "Vad kallar man den övre sektionen på kroppen?",
+        "choice1": "Kaunde",
+        "choice2": "Najunde",
+        "choice3": "Nopunde",
+        "choice4": "Hapjum",
+        "answer": 3
+    },
+    {
+        "question": "Vilken kroppsdel kallas 'sonkal' i Taekwondo?",
+        "choice1": "Handen",
+        "choice2": "Knivhand",
+        "choice3": "Främre knogar",
+        "choice4": "Bakre knogar",
+        "answer": 2
+    },
+    {
+        "question": "Vad används 'palmok' för i Taekwondo?",
+        "choice1": "Attack",
+        "choice2": "Försvar",
+        "choice3": "En teknik",
+        "choice4": "En rörelse",
+        "answer": 2
+    },
+    {
+       "question": "Vilken del av foten kallas 'apkumchi'?",
+       "choice1": "Trampdyna",
+       "choice2": "Häl",
+       "choice3": "Fotens sida",
+       "choice4": "Tårna",
+       "answer": 1
+    },
+    {
+       "question": "Vilken teknik är INTE en del av sparring?",
+       "choice1": "Mönster: tul",
+       "choice2": "Sparring: matsogi",
+       "choice3": "Speciella tekniker: tukgi",
+       "choice4": "Stegssparring: ilbo",
+       "answer": 1
+    },
+    {
+       "question": "Vad kallas de ålderskategorier för yngre minior i Sverige?",
+       "choice1": "9-10 år",
+       "choice2": "11-12 år",
+       "choice3": "Tom 8 år",
+       "choice4": "13-14 år",
+       "answer": 3
+    },
+    {
+       "question": "Vilken består av 5 olika tävlingsgrenar?",
+       "choice1": "Mönster",
+       "choice2": "Sparring",
+       "choice3": "Speciella tekniker",
+       "choice4": "All of the above",
+       "answer": 4
+    },
+    {
+       "question": "Vad innebär 'jumping motion'?",
+       "choice1": "En glidande teknik",
+       "choice2": "En teknik utförd med ett hopp",
+       "choice3": "En teknik utförd långsamt",
+       "choice4": "En stampande teknik",
+       "answer": 2
+    },
+    {
+       "question": "Vilken del av kroppen kallas 'mooru'?",
+       "choice1": "Knä",
+       "choice2": "Underarm",
+       "choice3": "Hälen",
+       "choice4": "Armbågen",
+       "answer": 1
+    },
+    {
+       "question": "Hur många sektioner finns det på kroppen enligt Taekwondo?",
+       "choice1": "2",
+       "choice2": "3",
+       "choice3": "4",
+       "choice4": "5",
+       "answer": 2
+    },
+    {
+       "question": "Vad betyder 'yoksak matsogi'?",
+       "choice1": "Uppvisningskamp",
+       "choice2": "Arrangerad kamp",
+       "choice3": "Fri kamp",
+       "choice4": "Stegssparring",
+       "answer": 2
+    },
+    {
+       "question": "I vilka ålderskategorier deltar juniorer i Sverige?",
+       "choice1": "9-10 år",
+       "choice2": "11-12 år",
+       "choice3": "15-17 år",
+       "choice4": "Tom 8 år",
+       "answer": 3
+    },
+    {
+       "question": "Vilken kroppsdel kallas 'euhke'?",
+       "choice1": "Huvud",
+       "choice2": "Axel",
+       "choice3": "Nacke",
+       "choice4": "Bröst",
+       "answer": 2
     }
+
 ]

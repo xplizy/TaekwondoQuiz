@@ -1,0 +1,25 @@
+.btn {
+    font-size: 1.8rem;
+    padding: 1rem 0;
+    width: 20rem;
+    text-align: center;
+    border: 0.1rem solid #56a5eb;
+    margin-bottom: 1rem;
+    color: #56a5eb;
+    background-color: white;
+    border-radius: 1rem;
+    transition: box-shadow 150ms, transform 150ms;
+    text-decoration: none; /* Ta bort understrykning av länkar */
+}
+
+.btn:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 0 #fe95f6;
+    transform: translateY(-0.1rem);
+}
+
+.btn[disabled]:hover {
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+}

@@ -1,0 +1,111 @@
+.btn {
+    font-size: 1.8rem;
+    padding: 1rem 0;
+    height: 3rem;
+    width: 20rem;
+    text-align: center;
+    border: 0.1rem solid #56a5eb;
+    margin-bottom: 1rem;
+    color: #56a5eb;
+    background-color: white;
+    border-radius: 1rem;
+    transition: box-shadow 150ms, transform 150ms;
+    text-decoration: none; /* Ta bort understrykning av länkar */
+}
+
+.white {
+    background-color: white;
+    border: 0.1rem solid black;
+    color: black;
+}
+
+.yellow {
+    background-color: yellow;
+    border: 0.1rem solid black;
+    color: black;
+}
+
+.green {
+    background-color: green;
+    border: 0.1rem solid black;
+    color: black;
+}
+
+.blue {
+    background-color: blue;
+    border: 0.1rem solid black;
+    color: white;
+}
+
+.red {
+    background-color: red;
+    border: 0.1rem solid black;
+    color: white;
+}
+
+.black {
+    background-color: black;
+    border: 0.1rem solid black;
+    color: white;
+}
+
+/* Användning av hover-effekt för varje färg */
+ .white:hover {
+    cursor: pointer;
+    box-shadow: 0 0.2rem 0 black;
+}
+
+.yellow:hover {
+    cursor: pointer;
+    box-shadow: 0 0.2rem 0 black;
+}
+
+.green:hover {
+    cursor: pointer;
+    box-shadow: 0 0.2rem 0 black;
+}
+
+.blue:hover {
+    cursor: pointer;
+    box-shadow: 0 0.2rem 0 black;
+}
+
+.red:hover {
+    cursor: pointer;
+    box-shadow: 0 0.2rem 0 black;
+}
+.black:hover {
+    cursor: pointer;
+    box-shadow: 0 0.2rem 0 black;
+}
+
+/* Undvik hover-effekt när en knapp är inaktiverad */
+.white[disabled]:hover {
+    cursor: not-allowed;
+    box-shadow: none;
+}
+
+.yellow[disabled]:hover {
+    cursor: not-allowed;
+    box-shadow: none;
+}
+
+.green[disabled]:hover {
+    cursor: not-allowed;
+    box-shadow: none;
+}
+
+.blue[disabled]:hover {
+    cursor: not-allowed;
+    box-shadow: none;
+}
+
+.red[disabled]:hover {
+    cursor: not-allowed;
+    box-shadow: none;
+}
+
+.black[disabled]:hover {
+    cursor: not-allowed;
+    box-shadow: none;
+}
